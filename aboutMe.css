@@ -127,7 +127,7 @@ ul.b {
     margin: 10px; /* Add space between .box elements */
     border: 3px solid white;
     border-radius: 1;
-    position: absolute;
+    position: static;
     top:35%;
     left: 52%;
 } 
@@ -140,7 +140,7 @@ ul.b {
     margin: 10px; /* Add space between .box elements */
     border: 3px solid white;
     border-radius: 1;
-    position: absolute;
+    position: static;
     top:35%;
     left: 35%;
 
@@ -153,7 +153,7 @@ ul.b {
     margin: 10px; /* Add space between .box elements */
     border: 3px solid white;
     border-radius: 1;
-    position: absolute;
+    position: static;
     top:63%;
     left: 52%;
 
@@ -166,7 +166,7 @@ ul.b {
     margin: 10px; /* Add space between .box elements */
     border: 3px solid white;
     border-radius: 1;
-    position: absolute;
+    position: static;
     top:35%;
     left: 80%;
 
@@ -186,7 +186,7 @@ ul.b {
     margin: 10px; /* Add space between .box elements */
     border: 3px solid white;
     border-radius: 1;
-    position: absolute;
+    position: static;
     top:35%;
     left: 69%;
 }
