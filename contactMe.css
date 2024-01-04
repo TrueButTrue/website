@@ -1,0 +1,140 @@
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.backgroundpage{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(planet.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+
+
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover:after{
+    width: 100%;
+}
+
+.smth {
+    display: flex;
+    flex-direction: row; /* Arrange .box elements horizontally */
+
+}
+
+.text-content{
+    width: 110%;
+    position:absolute;
+    top: 10%;
+    bottom: 30%;
+    color: white;
+}
+
+.text-content p{
+    text-align: center;
+    margin: 20px auto;
+    left: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    bottom: 50%;
+
+}
+
+ul.a {
+    list-style-position: outside;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 35px;
+
+}
+.content h1{
+    text-align: center;
+}
+
+ul.b {
+    list-style-position: outside;
+    justify-content: space-evenly;
+    margin: 25px auto;
+    font-weight: 100;
+    line-height: 27px;
+
+}
+
+.box {
+    width: 400px; /* Adjust width based on your layout */
+    height: 400px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:30%;
+    left: 10%;
+} 
+
+
+.boxv2 {
+    width: 400px; /* Adjust width based on your layout */
+    height: 400px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:30%;
+    left: 40%;
+
+}
+
+.boxv3 {
+    width: 400px; /* Adjust width based on your layout */
+    height: 400px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:30%;
+    left: 70%;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+  }

@@ -1,0 +1,196 @@
+.container {
+    position: relative;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.gradPic {
+    width: auto;
+    height: 1000px;
+    margin-right: 20px;
+    border: 3px solid white;
+    margin-top: 45px;
+}
+
+body{
+    margin:0
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover:after{
+    width: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.smth {
+    display: flex;
+    flex-direction: row; /* Arrange .box elements horizontally */
+    margin-top: 20px; /* Add space between text content and .smth */
+}
+
+.text-content{
+    width: 110%;
+    position:absolute;
+    top: 9%;
+    transform: translateY(-40%);
+    color: white;
+}
+.text-content h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-content p{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+ul.a {
+    list-style-position: outside;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 35px;
+
+}
+.content h1{
+    text-align: center;
+}
+
+.backgroundpage{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(all-is-calm-at-coopers-pond-penny-polakoff.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+ul.b {
+    list-style-position: outside;
+    justify-content: space-evenly;
+    margin: 25px auto;
+    font-weight: 100;
+    line-height: 27px;
+
+}
+
+.box {
+    width: 350px; /* Adjust width based on your layout */
+    height: 300px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:35%;
+    left: 52%;
+} 
+
+
+.boxv2 {
+    width: 350px; /* Adjust width based on your layout */
+    height: 725px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:35%;
+    left: 35%;
+
+}
+
+.boxv3 {
+    width: calc(33.33% - 20px); /* Adjust width based on your layout */
+    height: 400px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:63%;
+    left: 52%;
+
+}
+
+.boxv4 {
+    width: 320px; /* Adjust width based on your layout */
+    height: 300px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:35%;
+    left: 80%;
+
+}
+
+.aboutMeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.boxv5{
+    width: 200px; /* Adjust width based on your layout */
+    height: 300px; /* Adjust height based on your layout */
+    background: #E1DADA;
+    margin: 10px; /* Add space between .box elements */
+    border: 3px solid white;
+    border-radius: 1;
+    position: absolute;
+    top:35%;
+    left: 69%;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
